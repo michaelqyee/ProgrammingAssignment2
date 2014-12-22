@@ -42,3 +42,11 @@ cacheSolve <- function(x, ...) {
         inverse_matrix
         
 }
+
+## test case:
+
+## matrixTest <- matrix(c(4, 3, 3, 2), nrow = 2, ncol = 2)
+## cacheMatrixTest <- makeCacheMatrix(matrixTest)
+## solve(matrixTest)
+## cacheSolve(cacheMatrixTest) ## note result matches solve(matrixTest)
+## cacheSolve(cacheMatrixTest) ## note that "getting cached data" is displayed, indicating the cache was accessed
